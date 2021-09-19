@@ -1,0 +1,28 @@
+void main() {
+  var urdu = 59;
+  var english = 75;
+  var math = 20;
+  var sindhi = 20;
+  var calculas = 20;
+  var totalmarks = 500;
+  var obtainedmarks = urdu + english + math + sindhi + calculas;
+  print('Sami Got $obtainedmarks marks');
+  var percentage = obtainedmarks/totalmarks * 100;
+  print('and my percentage is $percentage%');
+  
+  if(percentage >= 80){
+    print('Your Grade is A1');
+  }
+  else if(percentage >= 70){
+    print('Your Grade is B');
+  }
+  else if(percentage >= 60){
+    print('Your Grade is C');
+  }
+  else if(percentage >= 50){
+     print('Your Grade is D');
+  } 
+  else{
+     print('You are Fail');
+   } 
+}
